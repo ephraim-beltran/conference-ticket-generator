@@ -1,12 +1,12 @@
 import styled from "./Header.module.css";
-
-const projectTitle = import.meta.env.VITE_PROJECT_TITLE;
+import logo from "@/assets/logo-full.svg";
 
 export default function Header() {
-  const title = projectTitle || "Frontend Mentor Project";
   return (
     <header className={styled.header}>
-      <h1>{title}</h1>
+      <h1>
+        <img src={logo} alt="Conding Conf" />
+      </h1>
     </header>
   );
 }
