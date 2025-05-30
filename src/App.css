@@ -21,4 +21,23 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  --neutral: hsl(0, 0%, 100%);
+  --neutral-300: hsl(252, 6%, 83%);
+  --neutral-500: hsl(245, 15%, 58%);
+  --neutral-700: hsl(245, 19%, 35%);
+  --neutral-900: hsl(248, 70%, 10%);
+  --orange-500: hsl(7, 88%, 67%);
+  --orange-700: hsl(7, 71%, 60%);
+  --large: 500;
+  --larger: 700;
+  --largest: 800;
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url(./assets/fonts/Inconsolata-VariableFont_wdth,wght.ttf)
+    format("truetype");
 }
