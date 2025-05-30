@@ -1,6 +1,20 @@
 #root {
   position: relative;
   min-height: 100dvh;
+  background-image:
+    url(./assets/pattern-lines.svg),
+    url(./assets/pattern-squiggly-line-top.svg),
+    url(./assets/pattern-circle.svg),
+    url(./assets/pattern-squiggly-line-bottom-mobile-tablet.svg),
+    url(./assets/background-mobile.png);
+  background-repeat: no-repeat;
+  background-position:
+    top,
+    right 5%,
+    150% 67.5%,
+    left bottom,
+    center;
+  background-size: cover, 25%, auto, 67.5%, cover;
 }
 
 * {
